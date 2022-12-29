@@ -4,7 +4,7 @@ var ReactNative = require('react-native')
 var Platform = ReactNative.Platform
 var GoogleAPIAvailability = ReactNative.NativeModules.ReactNativeGooglePlayServices;
 
-class ReactNativeGoogleAPIAvailabilityBridge {
+class RNGoogleAPIAvailability {
 	constructor() {
 
 	}

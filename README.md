@@ -4,15 +4,18 @@ Check if user has google play services installed + updated from React Native, An
 
 ## Installation
 ```
-npm install --save react-native-google-api-availability-bridge
-react-native link
+npm install --save rn-google-api-availability
+```
+
+```
+yarn add rn-google-api-availability
 ```
 
 Requires React Native >= 0.47
 
 ## Usage
 ```js
-const GoogleAPIAvailability = require('react-native-google-api-availability-bridge');
+import GoogleAPIAvailability from 'rn-google-api-availability';
 
 GoogleAPIAvailability.checkGooglePlayServices((result) => {
 	if(result === 'update') {

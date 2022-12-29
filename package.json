@@ -1,9 +1,9 @@
 {
-  "name": "react-native-google-api-availability-bridge",
-  "version": "1.4.0",
+  "name": "rn-google-api-availability",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/UCSD/react-native-google-api-availability-bridge"
+    "url": "https://github.com/fsdev-studio/rn-google-api-availability"
   },
   "description": "Check google play services version",
   "scripts": {
@@ -16,10 +16,11 @@
     "services",
     "availability"
   ],
-  "main": "ReactNativeGoogleAPIAvailabilityBridge",
-  "author": "Ivan Wu",
+  "main": "RNGoogleAPIAvailability",
+  "author": "Thomas Dreyer",
   "contributors": [
-    "Charles Bryant"
+    "Charles Bryant",
+    "Ivan Wu"
   ],
   "license": "MIT"
 }
