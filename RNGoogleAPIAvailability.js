@@ -1,7 +1,6 @@
 'use strict';
 
 var ReactNative = require('react-native')
-var Platform = ReactNative.Platform
 var GoogleAPIAvailability = ReactNative.NativeModules.ReactNativeGooglePlayServices;
 
 class RNGoogleAPIAvailability {
@@ -22,4 +21,4 @@ class RNGoogleAPIAvailability {
 	}
 }
 
-module.exports = new ReactNativeGoogleAPIAvailabilityBridge();
+module.exports = new RNGoogleAPIAvailability();
